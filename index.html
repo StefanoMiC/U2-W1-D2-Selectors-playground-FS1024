@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
     <main>
         <h1>Advanced CSS Selectors</h1>
 
@@ -42,7 +43,13 @@
                 <p>But <code>.direct-children > p</code> will not select this paragraph.</p>
             </div>
 
-            <!-- <div style="background-color:   rgba(0, 0, 0, 0.1); margin-top: 2rem">
+            <div style="background-color: lightgoldenrodyellow; padding: 1rem">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptatum, voluptate inventore
+                    maiores fugiat quasi error est rerum, laudantium corrupti eaque magnam beatae cupiditate eos
+                    expedita esse! Qui, laudantium veritatis.</p>
+            </div>
+
+            <div style="background-color:   rgba(0, 0, 0, 0.1); margin-top: 2rem">
                 <p>paragraph</p>
 
                 <p>paragraph</p>
@@ -67,7 +74,7 @@
                 <p>
                     paragraph <span style="font-family: 'EB Garamond'">span</span>
                 </p>
-            </div> -->
+            </div>
         </section>
 
         <section class="adjacent-sibling">
@@ -191,11 +198,16 @@
 
             <label for="range">In range</label>
             <input id="range" type="number" min="7" max="12" value="8" />
-            <!-- <span class="error-text">You are out of range, select another value!</span> -->
+            <span class="error-text">You are out of range, select another value!</span>
 
             <div>
                 <label for="check">are you a teacher?</label>
                 <input id="check" type="checkbox" checked style="width:auto" />
+            </div>
+
+            <div class="custom-checkbox">
+                <input id="custom-check" type="checkbox" checked style="width:auto" />
+                <label for="custom-check"></label>
             </div>
 
         </section>
